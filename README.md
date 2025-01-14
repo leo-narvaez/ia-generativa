@@ -10,6 +10,9 @@ Este proyecto incluye ejemplos prácticos para realizar preprocesamiento de text
 ### [Integración de Azure OpenAI con un Chatbot](https://github.com/leo-narvaez/ia-generativa/tree/main/quickstart-openai)
 Este proyecto muestra cómo integrar Azure OpenAI con un chatbot utilizando el modelo GPT-3.5 Turbo y GPT-4. Se aprovechan las características avanzadas del servicio de Azure y se incluyen mejoras para personalizar la interacción, registrar las conversaciones y facilitar el uso del asistente.
 
+### [Guardrail para Detectar Alucinaciones en Respuestas de Modelos de Lenguaje](https://github.com/leo-narvaez/ia-generativa/tree/main/hallucination)
+Este proyecto se enfoca en la creación de un guardrail de salida que verifica las respuestas generadas por modelos de lenguaje (LLMs) para detectar alucinaciones, es decir, respuestas incorrectas o inventadas. A través de un enfoque basado en un conjunto de evaluación robusto, se definen criterios específicos para identificar alucinaciones en las respuestas del modelo.
+
 ## Requisitos
 
 Asegúrate de contar con los siguientes requisitos antes de ejecutar los proyectos:
