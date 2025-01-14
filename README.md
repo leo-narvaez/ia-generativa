@@ -13,6 +13,10 @@ Este proyecto muestra cómo integrar Azure OpenAI con un chatbot utilizando el m
 ### [Guardrail para Detectar Alucinaciones en Respuestas de Modelos de Lenguaje](https://github.com/leo-narvaez/ia-generativa/tree/main/hallucination)
 Este proyecto se enfoca en la creación de un guardrail de salida que verifica las respuestas generadas por modelos de lenguaje (LLMs) para detectar alucinaciones, es decir, respuestas incorrectas o inventadas. A través de un enfoque basado en un conjunto de evaluación robusto, se definen criterios específicos para identificar alucinaciones en las respuestas del modelo.
 
+### [Exploración de Capacidades de Modelos de OpenAI](https://github.com/leo-narvaez/ia-generativa/tree/main/sdk-python/notebook)
+Este proyecto proporciona ejercicios prácticos para explorar diversas funcionalidades de los modelos de OpenAI, como la experimentación con prompts, comparación de similitudes entre textos, tokenización, generación de texto en tiempo real, y análisis de emociones. Los usuarios podrán aprender a utilizar estos modelos en tareas de procesamiento de lenguaje natural, incluyendo la evaluación de similitudes semánticas, extracción de palabras clave y generación de resúmenes.
+
+
 ## Requisitos
 
 Asegúrate de contar con los siguientes requisitos antes de ejecutar los proyectos:
