@@ -23,6 +23,9 @@ Este proyecto presenta una aplicación web que utiliza **GPT-4** de OpenAI para 
 ### [Filtrado de Contenido en Chats con Azure OpenAI](https://github.com/leo-narvaez/ia-generativa/tree/main/chat_filtered)
 Este proyecto demuestra cómo utilizar el filtrado de contenido en las respuestas generadas por los modelos de OpenAI en Azure. A través de ejemplos prácticos, se muestra cómo identificar y manejar contenido sensible, inapropiado o peligroso en las respuestas de un modelo. El filtrado se aplica tanto al contenido del *prompt* como a las respuestas generadas, analizando las categorías de filtrado y su severidad.
 
+### [Spring AI - Integración con Azure OpenAI](https://github.com/leo-narvaez/ia-generativa/tree/main/spring-ai-service)  
+Este proyecto integra el servicio de **Azure OpenAI** en una aplicación **Spring Boot**. A través de un controlador REST, se interactúa con el modelo **GPT 4o mini** de Azure OpenAI para generar respuestas personalizadas, como chistes o respuestas a preguntas generales. Además, implementa un enfoque de **Retrieval-Augmented Generation (RAG)**, lo que permite mejorar las respuestas generadas mediante la integración con una fuente de datos externa. Utiliza un enfoque sencillo para conectar Spring Boot con la API de OpenAI y ofrecer un servicio interactivo a través de un endpoint local. Este proyecto proporciona ejemplos prácticos y configuraciones para facilitar el uso de OpenAI dentro de una arquitectura basada en Spring.
+
 
 ## Requisitos
 
