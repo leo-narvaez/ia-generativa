@@ -16,6 +16,9 @@ Este proyecto se enfoca en la creación de un guardrail de salida que verifica l
 ### [Exploración de Capacidades de Modelos de OpenAI](https://github.com/leo-narvaez/ia-generativa/tree/main/sdk-python/notebook)
 Este proyecto proporciona ejercicios prácticos para explorar diversas funcionalidades de los modelos de OpenAI, como la experimentación con prompts, comparación de similitudes entre textos, tokenización, generación de texto en tiempo real, y análisis de emociones. Los usuarios podrán aprender a utilizar estos modelos en tareas de procesamiento de lenguaje natural, incluyendo la evaluación de similitudes semánticas, extracción de palabras clave y generación de resúmenes.
 
+### [Aplicación de Resumen y Respuesta de Correos Electrónicos](https://github.com/leo-narvaez/ia-generativa/tree/main/email_app)  
+Este proyecto presenta una aplicación web que utiliza **GPT-4** de OpenAI para generar resúmenes y respuestas automáticas para correos electrónicos. Desarrollada con **Streamlit**, permite a los usuarios ingresar un correo, generar un resumen o una respuesta sugerida, y reiniciar el proceso fácilmente. La aplicación está configurada para funcionar con la API de Azure OpenAI y ofrece una experiencia de usuario sencilla y eficiente.
+
 
 ## Requisitos
 
