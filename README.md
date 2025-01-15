@@ -20,6 +20,10 @@ Este proyecto proporciona ejercicios prácticos para explorar diversas funcional
 Este proyecto presenta una aplicación web que utiliza **GPT-4** de OpenAI para generar resúmenes y respuestas automáticas para correos electrónicos. Desarrollada con **Streamlit**, permite a los usuarios ingresar un correo, generar un resumen o una respuesta sugerida, y reiniciar el proceso fácilmente. La aplicación está configurada para funcionar con la API de Azure OpenAI y ofrece una experiencia de usuario sencilla y eficiente.
 
 
+### [Filtrado de Contenido en Chats con Azure OpenAI](https://github.com/leo-narvaez/ia-generativa/tree/main/chat_filtered)
+Este proyecto demuestra cómo utilizar el filtrado de contenido en las respuestas generadas por los modelos de OpenAI en Azure. A través de ejemplos prácticos, se muestra cómo identificar y manejar contenido sensible, inapropiado o peligroso en las respuestas de un modelo. El filtrado se aplica tanto al contenido del *prompt* como a las respuestas generadas, analizando las categorías de filtrado y su severidad.
+
+
 ## Requisitos
 
 Asegúrate de contar con los siguientes requisitos antes de ejecutar los proyectos:
