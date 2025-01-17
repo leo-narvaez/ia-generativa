@@ -26,6 +26,9 @@ Este proyecto demuestra cómo utilizar el filtrado de contenido en las respuesta
 ### [Spring AI - Integración con Azure OpenAI](https://github.com/leo-narvaez/ia-generativa/tree/main/spring-ai-service)  
 Este proyecto integra el servicio de **Azure OpenAI** en una aplicación **Spring Boot**. A través de un controlador REST, se interactúa con el modelo **GPT 4o mini** de Azure OpenAI para generar respuestas personalizadas, como chistes o respuestas a preguntas generales. Además, implementa un enfoque de **Retrieval-Augmented Generation (RAG)**, lo que permite mejorar las respuestas generadas mediante la integración con una fuente de datos externa. Utiliza un enfoque sencillo para conectar Spring Boot con la API de OpenAI y ofrecer un servicio interactivo a través de un endpoint local. Este proyecto proporciona ejemplos prácticos y configuraciones para facilitar el uso de OpenAI dentro de una arquitectura basada en Spring.
 
+### [Ejemplos de Embeddings](https://github.com/leo-narvaez/ia-generativa/tree/main/embeddings)  
+Este proyecto incluye varios notebooks que demuestran cómo trabajar con embeddings de texto en diferentes contextos utilizando las APIs de OpenAI y Azure OpenAI. Las tareas cubiertas incluyen la comparación de similitudes entre frases, la clasificación de texto, la visualización de embeddings en 2D mediante PCA, la búsqueda de texto similar en bases de datos de embeddings, y el manejo de textos largos mediante truncamiento o segmentación en fragmentos más pequeños para el embedding.  
+
 
 ## Requisitos
 
