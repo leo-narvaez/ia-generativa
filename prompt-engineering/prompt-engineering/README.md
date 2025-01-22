@@ -1,6 +1,5 @@
-# Predicción con Emojis
-
-En este ejercicio, te enfocarás en la predicción de emojis usando métodos de clasificación Zero-shot y Few-shot. A través de ejemplos, aprenderás a hacer que el modelo prediga emojis adecuados para el contexto emocional o temático de un mensaje, utilizando pocos ejemplos previos.
+# Ejercicios de Ingeniería de Prompts
+Este ejercicio está diseñado para que practiques cómo escribir prompts que generen resultados específicos utilizando los modelos de OpenAI. Aprenderás a estructurar tus entradas para obtener salidas como resúmenes, clasificaciones de texto o generación creativa.
 
 
 ## Configuración Inicial
@@ -12,3 +11,4 @@ AZURE_OPENAI_API_KEY = <tu_clave_api>
 AZURE_OPENAI_ENDPOINT = <tu_endpoint_de_azure>
 ```
 Estas variables son necesarias para autenticarte y utilizar la API de OpenAI a través de Azure.
+

@@ -1,6 +1,5 @@
-# Mejores Prácticas para la Ingeniería de Prompts
-
-Aquí aprenderás las mejores prácticas para crear prompts efectivos. Esto incluye cómo usar delimitadores (como ### o comillas triples """) y cómo proporcionar ejemplos previos para mejorar la efectividad del modelo. También verás cómo estructurar las solicitudes para obtener resultados más precisos y relevantes.
+# Control de la Salida del Modelo con Parámetros
+En este proyecto, aprenderás cómo controlar la salida del modelo utilizando parámetros específicos, como temperature, top_p, y penalty de frecuencia. Estos parámetros permiten ajustar la creatividad y precisión de las respuestas generadas por los modelos de OpenAI.
 
 
 ## Configuración Inicial

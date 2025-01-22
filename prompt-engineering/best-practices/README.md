@@ -1,5 +1,6 @@
-# Ejercicios de Ingeniería de Prompts
-Este ejercicio está diseñado para que practiques cómo escribir prompts que generen resultados específicos utilizando los modelos de OpenAI. Aprenderás a estructurar tus entradas para obtener salidas como resúmenes, clasificaciones de texto o generación creativa.
+# Mejores Prácticas para la Ingeniería de Prompts
+
+Aquí aprenderás las mejores prácticas para crear prompts efectivos. Esto incluye cómo usar delimitadores (como ### o comillas triples """) y cómo proporcionar ejemplos previos para mejorar la efectividad del modelo. También verás cómo estructurar las solicitudes para obtener resultados más precisos y relevantes.
 
 
 ## Configuración Inicial
@@ -11,4 +12,3 @@ AZURE_OPENAI_API_KEY = <tu_clave_api>
 AZURE_OPENAI_ENDPOINT = <tu_endpoint_de_azure>
 ```
 Estas variables son necesarias para autenticarte y utilizar la API de OpenAI a través de Azure.
-
