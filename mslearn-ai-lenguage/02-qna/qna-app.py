@@ -32,8 +32,7 @@ st.subheader("Tu fuente instantánea de sabiduría sobre MotoGP. 🏍️💨")
 
 
 # Crear un área de texto para ingresar un email
-question = st.text_area("Que quieres saber:", "")
-
+question = (st.text_area("Que quieres saber:", "")).strip()
 if 'qa_history' not in st.session_state:
     st.session_state.qa_history = []
 # Función para generar el resumen
