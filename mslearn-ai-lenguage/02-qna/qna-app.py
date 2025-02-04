@@ -62,6 +62,7 @@ def sentiment_to_emoji(sentiment):
     else:
         return "😡 Negativo"  # Emoji negativo
 
+
 response = ''
 if st.button("Preguntar", use_container_width=True):
     if question == "":
