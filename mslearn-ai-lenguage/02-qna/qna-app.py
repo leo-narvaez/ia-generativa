@@ -81,7 +81,7 @@ def process_question(question):
 
 # Botones con preguntas por defecto
 default_questions = [
-    "¿Quién ganó la última carrera de MotoGP?",
+    "¿Quién es el último campeón de MotoGP?",
     "¿Cuándo es la próxima carrera?",
     "¿Quién es el piloto con más campeonatos?"
 ]
