@@ -1,13 +1,14 @@
 from dotenv import load_dotenv
 import os
 import streamlit as st
-import time
-
-# Import namespaces
 from azure.core.credentials import AzureKeyCredential
-from azure.ai.textanalytics import TextAnalyticsClient
 from azure.ai.language.questionanswering import QuestionAnsweringClient
+from azure.ai.textanalytics import TextAnalyticsClient
 
+st.set_page_config(
+    page_title="MotoBot",  # Título de la página en la pestaña
+    page_icon="🏍️",  # Puedes poner la URL de un icono o la ruta local
+)
 
 try:
     # Get Configuration Settings
@@ -25,87 +26,82 @@ try:
 except Exception as ex:
     print(ex)
 
+# Cambiar el fondo de toda la página
+st.markdown("""
+    <style>
+        body {
+            background-color: #2C3E50;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # Título y encabezado de la aplicación
 st.title("MotoBot")
 st.subheader("Tu fuente instantánea de sabiduría sobre MotoGP. 🏍️💨")
 
+if 'messages' not in st.session_state:
+    st.session_state.messages = []
 
-# Crear un área de texto para ingresar un email
-question = (st.text_area("Que quieres saber:", "")).strip()
-if 'qa_history' not in st.session_state:
-    st.session_state.qa_history = []
 # Función para generar el resumen
-def genereate_response(question=""):
-    # Submit a question and display the answer
-    response = ai_client.get_answers(question=question,
+def generate_response(question):
+    response = ai_client.get_answers(
         project_name=ai_project_name,
-        deployment_name=ai_deployment_name)
-    return response.answers[0].answer
+        deployment_name=ai_deployment_name,
+        question=question,
+    )
+    return response
 
-def get_sentiment(question=""):
+# Función para analizar el sentimiento
+def analyze_sentiment(text):
+    sentiment_result = ai_client_sentiment.analyze_sentiment([text])
+    sentiment = sentiment_result[0].sentiment
+    return sentiment
+
+# Función para procesar la pregunta y mostrar la respuesta
+def process_question(question):
+    st.chat_message("user").markdown(question)
+    sentiment = analyze_sentiment(question)
+    st.session_state.messages.append({"role": "user", "content": question, "sentiment": sentiment})
+
     try:
-        # Realizar análisis de sentimientos
-        sentiment_result = ai_client_sentiment.analyze_sentiment([question])
-        sentiment = sentiment_result[0].sentiment
-        return sentiment_to_emoji(sentiment)
+        response = generate_response(question)
+        if response.answers:
+            answer = response.answers[0].answer
+        else:
+            answer = "Lo siento, no pude encontrar una respuesta a esa pregunta."
     except Exception as e:
-        return f"Error en el análisis de sentimientos: {e}"
+        answer = f"Hubo un error al procesar la pregunta: {e}"
 
-# Función para mostrar el emoji según el sentimiento
-def sentiment_to_emoji(sentiment):
-    if sentiment == 'positive':
-        return "🤩 Positivo"  # Emoji positivo
-    elif sentiment == 'neutral':
-        return "😐 Neutral"  # Emoji neutral
-    else:
-        return "😡 Negativo"  # Emoji negativo
+    with st.chat_message("assistant"):
+        st.markdown(answer)
+        response_sentiment = analyze_sentiment(answer)
+        st.markdown(f"_Sentimiento: {response_sentiment}_")
+    
+    st.session_state.messages.append({"role": "assistant", "content": answer, "sentiment": response_sentiment})
 
+# Botones con preguntas por defecto
+default_questions = [
+    "¿Quién ganó la última carrera de MotoGP?",
+    "¿Cuándo es la próxima carrera?",
+    "¿Quién es el piloto con más campeonatos?"
+]
 
-response = ''
-if st.button("Preguntar", use_container_width=True):
-    if question == "":
-        st.warning("Amigo no puedo responder si no preguntas nada... 🤔")
-        st.stop()   
-    with st.spinner("Generando respuesta... Espera mi pana..."):
-        sentiment = get_sentiment(question)
-        response = genereate_response(question)
-        st.success("Ya respondí!")
-        time.sleep(1)
+cols = st.columns(len(default_questions))
+for i, question in enumerate(default_questions):
+    if cols[i].button(question):
+        process_question(question)
 
-    # Guardar la pregunta, respuesta y sentimiento en el historial
-    st.session_state.qa_history.append({
-        "question": question,
-        "response": response,
-        "sentiment": sentiment
-    })
+# Mostrar mensajes previos como una conversación
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+        if "sentiment" in message:
+            st.markdown(f"_Sentimiento: {message['sentiment']}_")
 
-if st.session_state.qa_history:
-    # Mostrar las preguntas y respuestas previas con formato personalizado
-    st.subheader("Historial:")
+# Caja de texto para entrada del usuario
+if question := st.chat_input("Escribe tu pregunta aquí..."):
+    process_question(question)
 
-    for qa in reversed(st.session_state.qa_history):  # Mostrar en orden descendente
-
-        # Mostrar la respuesta a la izquierda y la pregunta a la derecha
-        st.markdown(
-            f"""
-            <div style="display: flex; flex-direction: column; align-items: end; margin-bottom: 10px;">
-                <div style="background-color: #131720; border-radius: 15px; padding: 10px; width: auto; max-width: 75%; margin-bottom: 5px; word-wrap: break-word;">
-                    <strong>Usuario:</strong><small>{qa['sentiment']}</small> <br> {qa['question']}
-                </div>
-            </div>
-            <div style="display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 10px;">
-                <div style="background-color: #131720; border-radius: 15px; padding: 10px; width: auto; max-width: 75%; margin-bottom: 5px; word-wrap: break-word;">
-                    <strong>MotoBot:</strong><br> {qa['response']}
-                </div>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-        st.write("---")
-
-    # Botón para reiniciar o limpiar respuesta
-    if st.button("Empezar de nuevo", use_container_width=True):
-        question = ""  # Limpiar el campo de texto
-        response = None  # Limpiar la respuesta
-        st.experimental_rerun()
+# Botón para reiniciar o limpiar el historial
+if st.button("Empezar de nuevo"):
+    st.session_state.messages = []  # Limpiar el historial
