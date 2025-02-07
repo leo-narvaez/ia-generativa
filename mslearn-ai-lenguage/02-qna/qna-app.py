@@ -24,13 +24,13 @@ default_questions = [
 ]
 # Imágenes predefinidas asociadas a cada pregunta (Puedes poner las URLs de las imágenes que desees)
 image_links = [
-    "images/clasification.webp",
-    "images/calendar.webp",
-    "images/pilots.webp"
+    "https://e00-xlk-ue-marca.uecdn.es/uploads/2024/12/04/17318548398367.jpeg",
+    "https://estaticos-cdn.prensaiberica.es/clip/56d57d8a-2cd9-4cc8-b564-29129b1ab361_alta-libre-aspect-ratio_default_0.jpg",
+    "https://resources.motogp.pulselive.com/photo-resources/2024/09/19/c8d424b9-69b1-43e6-8327-8f4faa4119de/Line_up-initial-2025-16_9-3_06.jpg?width=1440&height=810"
 ]
 
 # Imagen por defecto (que se mostrará inicialmente)
-default_image = "images/default.jpeg"
+default_image = "https://e00-xlk-ue-marca.uecdn.es/uploads/2024/11/20/17073103830374.jpeg"
 
 # Función para mostrar la imagen correspondiente
 def show_image(image_url):
