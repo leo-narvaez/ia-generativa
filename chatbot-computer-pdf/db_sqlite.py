@@ -1,63 +1,54 @@
 import sqlite3
 
-def save_to_db(details):
-    # Conexión a la base de datos SQLite
-    conn = sqlite3.connect('productos.db')
+# Crear la base de datos y la tabla si no existe
+def create_db():
+    conn = sqlite3.connect('products.db')  # Nombre de la base de datos
     cursor = conn.cursor()
 
-    # Crear la tabla si no existe (puedes ajustarla según los datos que estás manejando)
-    cursor.execute("""
-        CREATE TABLE IF NOT EXISTS productos (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            product_name TEXT,
-            product_code TEXT,
-            price TEXT,
-            description TEXT,
-            warranty TEXT,
-            hard_drive TEXT,
-            graphics TEXT,
-            processor TEXT,
-            screen TEXT,
-            dimensions_and_weight TEXT,
-            connections TEXT,
-            ram TEXT,
-            audio TEXT,
-            battery TEXT,
-            webcam TEXT,
-            os_and_software TEXT,
-            observations TEXT
-        )
-    """)
+    # Crear la tabla de laptops
+    cursor.execute('''CREATE TABLE IF NOT EXISTS laptops (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        product_name TEXT,
+        product_code TEXT,
+        price TEXT,
+        processor TEXT,
+        ram TEXT,
+        graphics TEXT,
+        screen TEXT,
+        battery TEXT,
+        observations TEXT,
+        description TEXT
+    )''')
 
-    # Insertar los detalles en la tabla
-    cursor.execute("""
-        INSERT INTO productos (
-            product_name, product_code, price, description, warranty, hard_drive, 
-            graphics, processor, screen, dimensions_and_weight, connections, 
-            ram, audio, battery, webcam, os_and_software, observations
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    """, (
-        details.get('product_name'),
-        details.get('product_code'),
-        details.get('price'),
-        details.get('description'),
-        details.get('warranty'),
-        details.get('hard_drive'),
-        details.get('graphics'),
-        details.get('processor'),
-        details.get('screen'),
-        details.get('dimensions_and_weight'),
-        details.get('connections'),
-        details.get('ram'),
-        details.get('audio'),
-        details.get('battery'),
-        details.get('webcam'),
-        details.get('os_and_software'),
-        details.get('observations')
-    ))
-
-    # Confirmar y cerrar la conexión
     conn.commit()
     conn.close()
 
+create_db()  # Crear la base de datos y la tabla si no existen
 
+# Función para guardar los detalles extraídos en la base de datos
+def save_to_db(details):
+    conn = sqlite3.connect('products.db')  # Conectar a la base de datos
+    cursor = conn.cursor()
+
+    print("--- Guardando en la base de datos ---")
+    print(details)
+    # Insertar los datos en la tabla 'laptops'
+    cursor.execute('''
+        INSERT INTO laptops (product_name, product_code, price, processor, ram, graphics, screen, battery, observations, description)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (
+        details.get('product_name'),
+        details.get('product_code'),
+        details.get('price'),
+        details.get('processor'),
+        details.get('ram'),
+        details.get('graphics'),
+        details.get('screen'),
+        details.get('battery'),
+        details.get('observations'),
+        details.get('description')
+    ))
+
+    conn.commit()  # Guardar los cambios
+    print("--- Datos guardados en la base de datos ---")
+    conn.close()   # Cerrar la conexión

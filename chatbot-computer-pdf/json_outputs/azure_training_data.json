@@ -1,0 +1,1003 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "CustomEntityRecognition",
+        "storageInputContainerName": "compubot",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "compubot",
+        "multilingual": true,
+        "description": "",
+        "language": "es"
+    },
+    "assets": {
+        "projectKind": "CustomEntityRecognition",
+        "entities": [
+            {
+                "category": "Marca"
+            },
+            {
+                "category": "Modelo"
+            },
+            {
+                "category": "Procesador"
+            },
+            {
+                "category": "Memoria RAM"
+            },
+            {
+                "category": "Disco Duro"
+            },
+            {
+                "category": "Grafica"
+            },
+            {
+                "category": "Pantalla"
+            },
+            {
+                "category": "Sistema Operativo"
+            },
+            {
+                "category": "Garantia"
+            },
+            {
+                "category": "Bateria"
+            },
+            {
+                "category": "precio"
+            }
+        ],
+        "documents": [
+            {
+                "location": "16Z90R-E.AD78B.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 99,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 85,
+                        "regionLength": 14,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 1300,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 100,
+                        "regionLength": 1199,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 125,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 128,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "17Z90R-E.AD78B.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 74,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 60,
+                        "regionLength": 14,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2385,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 75,
+                        "regionLength": 2309,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 125,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 1836,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "21KE002YSP.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 51,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 41,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2705,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 52,
+                        "regionLength": 2652,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 127,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 128,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "21KE003JSP.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 51,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 41,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2705,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 52,
+                        "regionLength": 2652,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 127,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 128,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "21KE003VSP.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 51,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 41,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2705,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 52,
+                        "regionLength": 2652,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 127,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 128,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "DTPF3.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 65,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 60,
+                        "regionLength": 5,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 3501,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 66,
+                        "regionLength": 3434,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 222,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 4521,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "FMDDY.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 68,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 63,
+                        "regionLength": 5,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2593,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 69,
+                        "regionLength": 2523,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 162,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 2770,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "GN4X0.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 67,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 62,
+                        "regionLength": 5,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 1607,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 68,
+                        "regionLength": 1538,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 127,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 126,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "MX2G3Y/A.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 26,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 8,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 562,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 27,
+                        "regionLength": 534,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 82,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 62,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "NP960XGL-XG1ES.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 127,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 113,
+                        "regionLength": 14,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 8943,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 128,
+                        "regionLength": 8814,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 168,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 149,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "NP960XGL-XG2ES.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 135,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 121,
+                        "regionLength": 14,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 8951,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 136,
+                        "regionLength": 8814,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 168,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 149,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "Y6B-00005.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 65,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 56,
+                        "regionLength": 9,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 6239,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 66,
+                        "regionLength": 6172,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 1461,
+                        "regionLength": 186,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2495,
+                        "regionLength": 129,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "Z1T-00012.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 78,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 69,
+                        "regionLength": 9,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2177,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 7,
+                        "labels": [
+                            {
+                                "category": "Garantia"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 79,
+                        "regionLength": 2097,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 126,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": -1,
+                        "regionLength": 127,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "location": "ZKB-00012.txt",
+                "language": "es",
+                "entities": [
+                    {
+                        "regionOffset": 0,
+                        "regionLength": 77,
+                        "labels": [
+                            {
+                                "category": "Marca"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 68,
+                        "regionLength": 9,
+                        "labels": [
+                            {
+                                "category": "Modelo"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 5730,
+                        "regionLength": 10,
+                        "labels": [
+                            {
+                                "category": "precio"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 78,
+                        "regionLength": 5651,
+                        "labels": [
+                            {
+                                "category": "Descripción"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 2486,
+                        "regionLength": 168,
+                        "labels": [
+                            {
+                                "category": "Procesador"
+                            }
+                        ]
+                    },
+                    {
+                        "regionOffset": 757,
+                        "regionLength": 2901,
+                        "labels": [
+                            {
+                                "category": "Memoria RAM"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
