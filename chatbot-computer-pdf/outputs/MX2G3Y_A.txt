@@ -1,7 +1,7 @@
 Product_name: MX2G3Y/A 
 Código: MX2G3Y/A
 
-Product_code: MX2G3Y/A
+Product_code: MX2G3Y_A
 
 Price: 3.849,00 €
 
@@ -64,8 +64,7 @@ Apple
 Connections: Conexión a red móvil
 No
 
-Ram: RAM Instalada
-36 GB
+Ram: 36 GB
 RAM Máxima
 36 GB
 Tecnología de la RAM
@@ -74,10 +73,4 @@ n.d.
 Os_and_software: Version S.O.
 macOS 
 Ventura
-
-Observations: No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
-otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
-cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
-distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
-efecto inmediato eventuales materiales descargados o impresos.
 

@@ -128,8 +128,7 @@ Si
 Puerto HDMI
 No
 
-Ram: RAM Instalada
-32 GB
+Ram: 32 GB
 RAM Máxima
 32 GB
 Bancos RAM Libres
@@ -157,10 +156,4 @@ Resolución Webcam
 Os_and_software: Version S.O.
 Windows 11 
 Pro
-
-Observations: No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
-otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
-cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
-distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
-efecto inmediato eventuales materiales descargados o impresos.
 

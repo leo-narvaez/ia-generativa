@@ -107,105 +107,7 @@ Si
 Puerto HDMI
 Si
 
-Ram: de última generación LPDDR5, disco duro SSD NVMe de 4ª 
-generación con doble ranura para ampliar hasta 4TB; permitiendo añadir recursos a tu equipo cuando lo 
-necesites. En cuanto a conectividad, se ha incluido el máximo de puertos posibles. Entre dichas conexiones, 
-cuenta con un USB-C con ThunderboltTM 4 incorporado, que permite una velocidad de transferencia de datos 
-de 40Gbps, carga de dispositivos y video 5K, todo con un solo cable; 
-garantizando su compatibilidad en el tiempo con diversos periféricos. El LG gram es uno de los portátiles más 
-silenciosos y eficientes térmicamente delmercado, gracias a la optimización del sistema de ventilación, que 
-permite mover un 50% más de caudal de aire que generaciones anteriores, con un nivel de ruido de solo 25dB. 
- 
- 
-Garantía :  
-36meses
-DISCO DURO
-Disco duro
-1.000 GB
-Tipo Soporte 1
-SSD
-Interfaz Soporte 1
-PCI Express 
-4.0
-Número Soportes
-1
-GRÁFICA
-Gráfica integrada
-Si
-Fabricante de la 
-gráfica
-Intel
-Modelo gráfica
-RTX™ 3050 Ti
-Memoria de la gráfica
-18 mb
-PROCESADOR
-Familia Procesador
-Intel Core i7
-Modelo de procesador
-i7-1360P
-Fabricante procesador
-Intel
-Frecuencia del 
-procesador
-2,2 GHz
-PANTALLA
-Tamaño pantalla
-17 ''
-Pantalla táctil
-No
-Tipo de pantalla
-IPS
-Resolución (Estándar)
-2560 x 1600
-Superficie de la 
-pantalla
-Mate
- 
-DIMENSIONES & PESO
-Peso sin embalaje
-1,45 kg
-Altura
-25,88 cm
-Ancho
-37,88 cm
-Profundidad
-1,78 cm
-GENERAL
-Color
-Negro
-Trusted Platform 
-Module (TPM)
-Si
- 
-CONEXIONES
-Conexión a red móvil
-No
-N° total de puertos 
-USB
-4
-Puertos USB 3.2 Gen 1 
-SuperSpeed (5 Gbps) 
-Type-A
-2
-Puertos USB 3.2 Gen 
-2x2 SuperSpeed (20 
-Gbps) Type-C
-2
-Ethernet
-No presente
-Porte VGA
-No
-Bluetooth
-Si
-Puerto Thunderbolt
-Si
-Puerto HDMI
-Si
- 
-RAM
-RAM Instalada
-32 GB
+Ram: 32 GB
 RAM Máxima
 32 GB
 Bancos RAM Libres
@@ -237,10 +139,4 @@ Home
 CONTENIDO DEL PAQUETE
 Pluma
 No
-
-Observations: No se proporciona ninguna garantía ni declaración en cuanto a la exactitud de esta información y se declina cualquier responsabilidad por errores tipográficos u 
-otros errores u omisiones en el tipo de contenido. Al proporcionar esta información, además, no se concede ninguna licencia sobre ningún copyright, patente o 
-cualquier otro derecho de propiedad intelectual. No puede modificar de ninguna manera los materiales de esta web, ni reproducir o mostrar públicamente, ni 
-distribuir o utilizar de otro modo para fines públicos o comerciales. En caso de violación de estos Términos, la autorización de uso será necesaria, destruyendo con 
-efecto inmediato eventuales materiales descargados o impresos.
 

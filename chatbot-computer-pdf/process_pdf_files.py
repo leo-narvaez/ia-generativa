@@ -19,6 +19,7 @@ def extract_text_from_pdf(pdf_path):
 
 # Función para extraer y formatear los datos del PDF
 def extract_and_format_data_from_pdf(pdf_path, page_text):
+    base_filename = os.path.splitext(os.path.basename(pdf_path))[0]
     details = {}
 
     # Buscar el nombre del producto, que está justo después de la línea con el e-mail
@@ -29,7 +30,7 @@ def extract_and_format_data_from_pdf(pdf_path, page_text):
     # Buscar el código del producto
     code_match = re.search(r"Código:\s*(\S+)", page_text)
     if code_match:
-        details['product_code'] = code_match.group(1).strip()
+        details['product_code'] = base_filename
 
     # Buscar el precio del producto (formato de precio en euros)
     price_match = re.search(r"(\d{1,3}(?:\.\d{3})*,\d{2} €)", page_text)
@@ -54,22 +55,17 @@ def extract_and_format_data_from_pdf(pdf_path, page_text):
         'screen': r"PANTALLA\s*(.*?)\s*(?=DIMENSIONES)",
         'dimensions_and_weight': r"DIMENSIONES & PESO\s*(.*?)\s*(?=GENERAL)",
         'connections': r"CONEXIONES\s*(.*?)\s*(?=RAM)",
-        'ram': r"RAM\s*(.*?)\s*(?=UNIDADES ÓPTICAS)",
+        'ram': r"RAM Instalada\s*(.*?)\s*(?=UNIDADES ÓPTICAS)",
         'audio': r"AUDIO\s*(.*?)\s*(?=BATERÍA)",
         'battery': r"BATERÍA\s*(.*?)\s*(?=WEBCAM)",
         'webcam': r"WEBCAM\s*(.*?)\s*(?=SOLUCIONES)",
-        'os_and_software': r"SISTEMA OPERATIVO & SOFTWARE\s*(.*?)\s*(?=Opciones)"
+        'os_and_software': r"SISTEMA OPERATIVO & SOFTWARE\s*(.*?)\s*(?=Opciones|TAMAÑO CON EMBALAJE)"
     }
 
     for component, pattern in components.items():
         component_match = re.search(pattern, page_text, re.DOTALL)
         if component_match:
             details[component] = component_match.group(1).strip()
-
-    # Buscar observaciones (parte final después de "Opciones")
-    observations_match = re.search(r"Opciones(.*)", page_text, re.DOTALL)
-    if observations_match:
-        details['observations'] = observations_match.group(1).strip()
 
     # Formatear la salida para guardarla en un archivo .txt
     formatted_text = ""
@@ -87,7 +83,7 @@ def extract_and_format_data_from_pdf(pdf_path, page_text):
 def save_structured_files(details, pdf_path):
     # Eliminar la extensión del PDF
     base_filename = os.path.splitext(os.path.basename(pdf_path))[0]
-    
+    print(f"Procesando archivo: {base_filename}")
     # Asegurarse de que las carpetas existen
     if not os.path.exists(TEXT_FOLDER):
         os.makedirs(TEXT_FOLDER)
@@ -111,9 +107,7 @@ def save_structured_files(details, pdf_path):
         data = {'products': {}}
     
     # Obtener el código del producto y agregarlo al diccionario global
-    product_code = details.get('product_code')
-    if product_code:
-        data['products'][product_code] = details
+    data['products'][base_filename] = details
     
     # Guardar todos los productos en el archivo JSON
     with open(json_file_path, 'w', encoding='utf-8') as json_file:

@@ -29,9 +29,6 @@ create_db()  # Crear la base de datos y la tabla si no existen
 def save_to_db(details):
     conn = sqlite3.connect('products.db')  # Conectar a la base de datos
     cursor = conn.cursor()
-
-    print("--- Guardando en la base de datos ---")
-    print(details)
     # Insertar los datos en la tabla 'laptops'
     cursor.execute('''
         INSERT INTO laptops (product_name, product_code, price, processor, ram, graphics, screen, battery, observations, description)
@@ -50,5 +47,4 @@ def save_to_db(details):
     ))
 
     conn.commit()  # Guardar los cambios
-    print("--- Datos guardados en la base de datos ---")
     conn.close()   # Cerrar la conexión

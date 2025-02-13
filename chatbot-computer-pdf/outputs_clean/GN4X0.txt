@@ -1,0 +1,171 @@
+Entidad y Etiquetas para el Producto: GN4X0
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- Dell Latitude 9450 2-in-1 U7 165U 32GB/1TB SSD W11 P
+- Código: GN4X0
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- GN4X0
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.542,61 €
+--------------------------------------------------
+
+Entidad: description
+Etiquetas:
+- Diseñado para impresionar
+- Sumérjase:
+- en el único PC comercial del mundo con panel táctil de colaboración háptico. Escuchará y sentirá una respuesta
+- personalizable cada vez que pulse el panel táctil o los controles de conferencia.
+- Controles prácticos:
+- los iconos de conferencia del panel táctil, compatibles con Microsoft Teams y Zoom le permiten acceder
+- rápidamente al micrófono, la cámara, la pantalla compartida y las acciones de chat durante una reunión.
+- Diseño elegante:
+- el Latitude 9450 2 en 1 es el único PC comercial del mundo con teclado sin entramado, con teclas anchas y
+- profundas para lograr una escritura eficiente y cómoda.
+- Ahorro de energía:
+- la tecnología de retroiluminación con mini-LED de ahorro de batería reduce el consumo de energía del teclado
+- hasta un 75 % y aumenta la duración de la batería.
+- Potencia compacta:
+- el PC comercial de 35,60 cm (14") más pequeño del mundo, ideal para cualquier persona que necesite un
+- rendimiento móvil de alto nivel.
+- Impresionantes vistas:
+- la pantalla expansiva InfinityEdge QHD+ de 16:10 ofrece una gran cantidad de espacio para la productividad y
+- una resolución muy detallada.
+- Elaboración meticulosa:
+- presenta un impresionante color grafito y está fabricado mediante un proceso de mecanizado CNC de alta
+- precisión que crea aristas perfectas.
+- *Algunos datos de esta descripción pueden ser opcionales y no estar presentes en este código de producto
+- específico (por ejemplo, presencia de LTE o tipo de tarjeta gráfica, etc.). Consulte la ficha técnica.
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.024 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- PCI Express
+- 4.0
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- No
+- Fabricante de la
+- gráfica
+- Intel
+- Modelo gráfica
+- UHD Graphics
+- Memoria de la gráfica
+- 0 mb
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core
+- Ultra 7
+- Modelo de procesador
+- 164U
+- Fabricante procesador
+- Intel
+- Frecuencia del
+- procesador
+- 4,4 GHz
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 14 ''
+- Pantalla táctil
+- Si
+- Tipo de pantalla
+- TFT
+- Resolución (Estándar)
+- 2560 x 1600
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 1,54 kg
+- Altura
+- 1,28 cm
+- Ancho
+- 31,1 cm
+- Profundidad
+- 2,15 cm
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- Si
+- Ethernet
+- Ethernet
+- 10/100/1000
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Puerto Thunderbolt
+- Si
+- Puerto HDMI
+- No
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 32 GB
+- RAM Máxima
+- 32 GB
+- Bancos RAM Libres
+- 0
+- Velocidad de la
+- memoria de reloj
+- 7.467 MHz
+- Tecnología de la RAM
+- DDR5
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 3
+--------------------------------------------------
+
+Entidad: webcam
+Etiquetas:
+- Webcam integrada
+- Si
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Pro
+--------------------------------------------------

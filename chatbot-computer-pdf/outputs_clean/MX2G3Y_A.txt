@@ -1,0 +1,111 @@
+Entidad y Etiquetas para el Producto: MX2G3Y_A
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- MX2G3Y/A
+- Código: MX2G3Y/A
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- MX2G3Y_A
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 3.849,00 €
+--------------------------------------------------
+
+Entidad: description
+Etiquetas:
+- Descripción
+- Chip M4 Max de Apple
+- •
+- CPU de 14 núcleos
+- •
+- GPU de 32 núcleos
+- •
+- 36 GB de memoria unificada
+- •
+- 1 TB de almacenamiento SSD
+- •
+- Neural Engine de 16 núcleos
+- •
+- Pantalla Liquid Retina XDR de 14 pulgadas
+- •
+- Tres puertos Thunderbolt 4, puerto HDMI, ranura para tarjetas SDXC, toma para
+- auriculares y puerto MagSafe 3
+- •
+- Teclado Magic Keyboard con Touch ID
+- •
+- Trackpad Force Touch
+- •
+- Adaptador de corriente USB-C de 70 W
+- •
+- Contenido de la caja
+- MacBook Pro de 14 pulgadas
+- •
+- Cable de USB-C a MagSafe 3 (2 m)
+- •
+- Adaptador de corriente USB-C
+- •
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.064 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- Non presente
+- Número Soportes
+- 0
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- Si
+- Fabricante de la
+- gráfica
+- Apple
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Apple M
+- Modelo de procesador
+- M4 Max
+- Fabricante procesador
+- Apple
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- No
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 36 GB
+- RAM Máxima
+- 36 GB
+- Tecnología de la RAM
+- n.d.
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- macOS
+- Ventura
+--------------------------------------------------
