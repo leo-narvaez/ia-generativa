@@ -1,0 +1,182 @@
+Entidad y Etiquetas para el Producto: FMDDY
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- Dell XPS 13 9350U7 258VEvo32GB1TB SSD13.4" OLED Touch
+- Código: FMDDY
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- FMDDY
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.303,03 €
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 12meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.000
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- NVMe
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- Si
+- Fabricante de la
+- gráfica
+- Intel
+- Modelo gráfica
+- Intel Arc
+- Graphics
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core
+- Ultra 7
+- Modelo de procesador
+- 258V
+- Fabricante procesador
+- Intel
+- Número de núcleos de
+- procesador
+- 8
+- Frecuencia del
+- procesador
+- 4,8 GHz
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 13,4
+- Pantalla táctil
+- Si
+- Tipo de pantalla
+- OLED
+- Resolución (Estándar)
+- 2880 x 1800
+- Luminosidad
+- 400
+- Contraste
+- 1.000.000
+- Tipologia HD
+- 3K
+- Retroiluminación
+- Yes
+- Relación de aspecto
+- nativa
+- 16:10
+- Tiempo máximo de
+- refresco
+- 60
+- Espacio de color RGB
+- DCI-P3
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 1,18
+- Altura
+- 1,48
+- Ancho
+- 29,53
+- Profundidad
+- 19,91
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- No
+- N° total de puertos
+- USB
+- 0
+- Puertos USB 2.0 High
+- Speed Type-A
+- 0
+- Puertos USB 3.2 Gen 1
+- SuperSpeed (5 Gbps)
+- Type-A
+- 0
+- Ethernet
+- No presente
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Puerto Thunderbolt
+- Si
+- Puerto HDMI
+- Si
+- HDMI micro
+- No
+- Display Port
+- No
+- Mini Display Port
+- No
+- Conexión para
+- Dockstation del
+- fabricante
+- No
+- Wireless (standard)
+- Wifi 7
+- (802.11be)
+- Tipo de puerto de
+- carga
+- USB Type-C
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 32
+- RAM Máxima
+- 32
+- Tecnología de la RAM
+- LPDDR5X
+- Tipo de RAM
+- On-board
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 3
+- Capacidad de batería
+- 55
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Pro
+- Bit S.O.
+- 64
+- Software Incluido
+- Intel® ME Disabled
+--------------------------------------------------

@@ -1,0 +1,105 @@
+Product_name: LG gram 16Z90R/ Windows 11 Home/ i7/ 32GB/ 1TB SSD/ RTX 
+3050/ 1,2Kg/ 22,5h 
+Código: 16Z90R-E.AD78B
+
+Product_code: 16Z90R-E.AD78B
+
+Price: 2.130,00 €
+
+Warranty: 36meses
+
+Hard_drive: Disco duro
+1.000 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+PCI Express 
+4.0
+Número Soportes
+2
+
+Graphics: Gráfica integrada
+No
+Fabricante de la 
+gráfica
+Nvidia
+Modelo gráfica
+Iris Xe 
+Graphics
+Memoria de la gráfica
+0 mb
+
+Processor: Familia Procesador
+Intel Core i7
+Modelo de procesador
+i7-1360P
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+2,2 GHz
+
+Screen: Tamaño pantalla
+16 ''
+Pantalla táctil
+No
+Tipo de pantalla
+IPS
+Resolución (Estándar)
+2560 x 1600
+Superficie de la 
+pantalla
+n/d
+
+Dimensions_and_weight: Peso sin embalaje
+1,2 kg
+Altura
+35,51 cm
+Ancho
+24,23 cm
+Profundidad
+16,8 cm
+
+Connections: Conexión a red móvil
+No
+Ethernet
+Ethernet 
+10/100
+Porte VGA
+No
+Bluetooth
+Si
+Bluetooth Versión
+5,1
+Puerto Thunderbolt
+Si
+Puerto HDMI
+Si
+
+Ram: 32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+6.000 MHz
+Tecnología de la RAM
+LPDDR5
+
+Audio: Micrófono Integrado
+Si
+
+Battery: Número celdas
+4
+Duración de la batería 
+hasta
+13,5 h
+
+Webcam: Webcam integrada
+Si
+
+Os_and_software: Version S.O.
+Windows 11 
+Home
+

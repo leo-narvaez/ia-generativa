@@ -1,0 +1,163 @@
+Entidad y Etiquetas para el Producto: 17Z90R-E.AD78B
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- LG gram 17Z90R 17" Windows 11 Home i7 32GB 1TB SSD
+- Código: 17Z90R-E.AD78B
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- 17Z90R-E.AD78B
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.205,78 €
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.000 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- PCI Express
+- 4.0
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- Si
+- Fabricante de la
+- gráfica
+- Intel
+- Modelo gráfica
+- RTX™ 3050 Ti
+- Memoria de la gráfica
+- 18 mb
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core i7
+- Modelo de procesador
+- i7-1360P
+- Fabricante procesador
+- Intel
+- Frecuencia del
+- procesador
+- 2,2 GHz
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 17 ''
+- Pantalla táctil
+- No
+- Tipo de pantalla
+- IPS
+- Resolución (Estándar)
+- 2560 x 1600
+- Superficie de la
+- pantalla
+- Mate
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 1,45 kg
+- Altura
+- 25,88 cm
+- Ancho
+- 37,88 cm
+- Profundidad
+- 1,78 cm
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- No
+- N° total de puertos
+- USB
+- 4
+- Puertos USB 3.2 Gen 1
+- SuperSpeed (5 Gbps)
+- Type-A
+- 2
+- Puertos USB 3.2 Gen
+- 2x2 SuperSpeed (20
+- Gbps) Type-C
+- 2
+- Ethernet
+- No presente
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Puerto Thunderbolt
+- Si
+- Puerto HDMI
+- Si
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 32 GB
+- RAM Máxima
+- 32 GB
+- Bancos RAM Libres
+- 0
+- Velocidad de la
+- memoria de reloj
+- 6.000 MHz
+- Tecnología de la RAM
+- LPDDR5
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 4
+- Duración de la batería
+- hasta
+- 20 h
+--------------------------------------------------
+
+Entidad: webcam
+Etiquetas:
+- Webcam integrada
+- Si
+- Resolución Webcam
+- 1920 x 1080
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Home
+- CONTENIDO DEL PAQUETE
+- Pluma
+- No
+--------------------------------------------------

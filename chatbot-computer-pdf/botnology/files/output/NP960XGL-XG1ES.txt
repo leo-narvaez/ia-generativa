@@ -1,0 +1,205 @@
+Entidad y Etiquetas para el Producto: NP960XGL-XG1ES
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- GALAXY BOOK4 ULTRA 16", CORE ULTRA 7 155H 16GB 1TB
+- GeForce RTX 4050 Windows 11 HOME 3 AÑOS DE GARANTIA
+- Código: NP960XGL-XG1ES
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- NP960XGL-XG1ES
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.425,46 €
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.000 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- PCI Express
+- 4.0
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- No
+- Fabricante de la
+- gráfica
+- Nvidia
+- Modelo gráfica
+- GeForce RTX
+- 4050
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core
+- Ultra 7
+- Modelo de procesador
+- 155H
+- Fabricante procesador
+- Intel
+- Frecuencia del
+- procesador
+- 1,4 GHz
+- Frecuencia del
+- procesador turbo
+- 5,1 GHz
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 16 ''
+- Pantalla táctil
+- Si
+- Tipo de pantalla
+- AMOLED
+- Resolución (Estándar)
+- 2880 x 1800
+- Superficie de la
+- pantalla
+- Mate
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 1,86 kg
+- Altura
+- 25,04 cm
+- Ancho
+- 35,54 cm
+- Profundidad
+- 4,3 cm
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- No
+- N° total de puertos
+- USB
+- 3
+- Puertos USB 3.2 Gen 1
+- SuperSpeed (5 Gbps)
+- Type-A
+- 1
+- Puertos USB 3.2 Gen
+- 2x2 SuperSpeed (20
+- Gbps) Type-C
+- 2
+- Ethernet
+- No presente
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Bluetooth Versión
+- 5,3
+- Puerto Thunderbolt
+- No
+- Puerto HDMI
+- Si
+- HDMI micro
+- No
+- Display Port
+- No
+- Mini Display Port
+- No
+- Conexión para
+- Dockstation del
+- fabricante
+- No
+- Wireless (standard)
+- Wifi 6E
+- (802.11ax)
+- Otras conexiones
+- El HDMI  es 2.1 (Supports 8K@60Hz, 5K@120Hz)
+- los dos USB-C son  Thunderbolt™ 4
+- Headphone out/Mic-in Combo
+- Tipo de puerto de
+- carga
+- USB Type-C
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 16 GB
+- RAM Máxima
+- 16 GB
+- Bancos RAM Libres
+- 0
+- Velocidad de la
+- memoria de reloj
+- 7.467 MHz
+- Tecnología de la RAM
+- LPDDR5X
+- Tipo de RAM
+- SO-DIMM
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 1
+- Duración de la batería
+- hasta
+- 21 h
+--------------------------------------------------
+
+Entidad: webcam
+Etiquetas:
+- Webcam integrada
+- Si
+- Resolución Webcam
+- 1920 x 1080
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Home
+- Software Incluido
+- Galaxy Productivity : Control y Colaboración
+- - Auriculares Buds Auto Switch (entre dispositivos
+- Galaxy)
+- -Call&Message Continuity (llama y recibe sms desde el
+- portátil)
+- - Smart Switch, Easy BT connection
+- Galaxy Book Experience → experiencia fácil
+- multidispositivo:
+- -comparte fácil con : Quick Share, Private Share
+- -2nd Screen (w Samsung Account), Multi-Control (Tab-
+- PC-Phone)
+- -Samsung Notes (tus notas en todos tus dipositivos)
+- -Phone-Link (+ Instant Hotspot) →tú móvil en tu
+- pc
+- - Samsung Pass
+- -SmartThings (+ Lost Mode)
+--------------------------------------------------

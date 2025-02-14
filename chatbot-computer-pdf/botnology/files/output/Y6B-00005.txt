@@ -1,0 +1,180 @@
+Entidad y Etiquetas para el Producto: Y6B-00005
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- Microsoft Surface Pro 10 i7/32/512/W11 Platino
+- Código: Y6B-00005
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- Y6B-00005
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.311,45 €
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 512 GB
+- Tipo Soporte 1
+- Hybrid-HDD
+- Interfaz Soporte 1
+- SSD
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- Si
+- Fabricante de la
+- gráfica
+- Intel
+- Modelo gráfica
+- Intel Graphics
+- Memoria de la gráfica
+- 0 mb
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core
+- Ultra 7
+- Modelo de procesador
+- i7-165U
+- Fabricante procesador
+- Intel
+- Frecuencia del
+- procesador
+- 1,7 GHz
+- Frecuencia del
+- procesador turbo
+- 4,9 GHz
+- Intel V-pro
+- No
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 13 ''
+- Pantalla táctil
+- Si
+- Tipo de pantalla
+- LCD
+- Resolución (Estándar)
+- 2880 x 1920
+- Superficie de la
+- Brillo
+- Luminosidad
+- 600 cd/m2
+- Contraste
+- 1.300 :1
+- pantalla
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 0,88 kg
+- Altura
+- 28,7 cm
+- Ancho
+- 20,8 cm
+- Profundidad
+- 0,93 cm
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- No
+- N° total de puertos
+- USB
+- 2
+- Puertos USB 4 (40
+- Gbps) Type-C
+- 2
+- Ethernet
+- No presente
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Bluetooth Versión
+- 5,3
+- Puerto Thunderbolt
+- Si
+- Puerto HDMI
+- No
+- Conexión para
+- Dockstation del
+- fabricante
+- Si
+- Wireless (standard)
+- Wi-Fi 6
+- (802.11ax)
+- Otras conexiones
+- 2 × USB-C with USB 4.0/ Thunderbolt 4
+- 1 × Surface Connect port
+- 1 × Surface Type Cover port
+- M.2 rSSD
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 32 GB
+- RAM Máxima
+- 32 GB
+- Bancos RAM Libres
+- 0
+- Velocidad de la
+- memoria de reloj
+- 8.533 MHz
+- Tecnología de la RAM
+- LPDDR5X
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 4
+- Duración de la batería
+- hasta
+- 19 h
+--------------------------------------------------
+
+Entidad: webcam
+Etiquetas:
+- Webcam integrada
+- Si
+- Resolución Webcam
+- 1920 x 1080
+- Infrarrojos
+- Si
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Pro
+- Software Incluido
+- Preloaded Microsoft 365 Apps:
+- Microsoft 365 Business Standard,
+- Microsoft 365 BusinessPremium
+- or Microsoft 365 Apps 30-day trial
+--------------------------------------------------

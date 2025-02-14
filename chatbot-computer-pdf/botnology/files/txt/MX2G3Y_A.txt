@@ -1,0 +1,44 @@
+Product_name: MX2G3Y/A 
+Código: MX2G3Y/A
+
+Product_code: MX2G3Y_A
+
+Price: 3.849,00 €
+
+Warranty: 36meses
+
+Hard_drive: Disco duro
+1.064 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+Non presente
+Número Soportes
+0
+
+Graphics: Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Apple
+
+Processor: Familia Procesador
+Apple M
+Modelo de procesador
+M4 Max
+Fabricante procesador
+Apple
+
+Connections: Conexión a red móvil
+No
+
+Ram: 36 GB
+RAM Máxima
+36 GB
+Tecnología de la RAM
+n.d.
+
+Os_and_software: Version S.O.
+macOS 
+Ventura
+

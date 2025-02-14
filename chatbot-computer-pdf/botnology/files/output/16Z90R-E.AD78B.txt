@@ -1,0 +1,41 @@
+Entidad y Etiquetas para el Producto: 16Z90R-E.AD78B
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- LG gram 16Z90R/ Windows 11 Home/ i7/ 32GB/ 1TB SSD/ RTX
+- 3050/ 1,2Kg/ 22,5h
+- Código: 16Z90R-E.AD78B
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- 16Z90R-E.AD78B
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.130,00 €
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.000 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- PCI Express
+- 4.0
+- Número Soportes
+- 2
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada

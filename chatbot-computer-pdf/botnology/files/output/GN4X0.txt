@@ -1,0 +1,143 @@
+Entidad y Etiquetas para el Producto: GN4X0
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- Dell Latitude 9450 2-in-1 U7 165U 32GB/1TB SSD W11 P
+- Código: GN4X0
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- GN4X0
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.542,61 €
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 1.024 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- PCI Express
+- 4.0
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- No
+- Fabricante de la
+- gráfica
+- Intel
+- Modelo gráfica
+- UHD Graphics
+- Memoria de la gráfica
+- 0 mb
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core
+- Ultra 7
+- Modelo de procesador
+- 164U
+- Fabricante procesador
+- Intel
+- Frecuencia del
+- procesador
+- 4,4 GHz
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 14 ''
+- Pantalla táctil
+- Si
+- Tipo de pantalla
+- TFT
+- Resolución (Estándar)
+- 2560 x 1600
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 1,54 kg
+- Altura
+- 1,28 cm
+- Ancho
+- 31,1 cm
+- Profundidad
+- 2,15 cm
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- Si
+- Ethernet
+- Ethernet
+- 10/100/1000
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Puerto Thunderbolt
+- Si
+- Puerto HDMI
+- No
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 32 GB
+- RAM Máxima
+- 32 GB
+- Bancos RAM Libres
+- 0
+- Velocidad de la
+- memoria de reloj
+- 7.467 MHz
+- Tecnología de la RAM
+- DDR5
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 3
+--------------------------------------------------
+
+Entidad: webcam
+Etiquetas:
+- Webcam integrada
+- Si
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Pro
+--------------------------------------------------

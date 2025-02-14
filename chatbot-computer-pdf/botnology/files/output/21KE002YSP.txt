@@ -1,0 +1,165 @@
+Entidad y Etiquetas para el Producto: 21KE002YSP
+==================================================
+
+Entidad: product_name
+Etiquetas:
+- Lenovo ThinkPad X1 2-in-1 Gen 9
+- Código: 21KE002YSP
+--------------------------------------------------
+
+Entidad: product_code
+Etiquetas:
+- 21KE002YSP
+--------------------------------------------------
+
+Entidad: price
+Etiquetas:
+- 2.546,24 €
+--------------------------------------------------
+
+Entidad: warranty
+Etiquetas:
+- 36meses
+--------------------------------------------------
+
+Entidad: hard_drive
+Etiquetas:
+- Disco duro
+- 512 GB
+- Tipo Soporte 1
+- SSD
+- Interfaz Soporte 1
+- PCI Express
+- 4.0
+- Velocidad Soporte 1
+- 2.280 rpm
+- Número Soportes
+- 1
+--------------------------------------------------
+
+Entidad: graphics
+Etiquetas:
+- Gráfica integrada
+- No
+- Fabricante de la
+- gráfica
+- Intel
+- Modelo gráfica
+- Intel Graphics
+- Memoria de la gráfica
+- 0 mb
+--------------------------------------------------
+
+Entidad: processor
+Etiquetas:
+- Familia Procesador
+- Intel Core
+- Ultra 7
+- Modelo de procesador
+- 155U
+- Fabricante procesador
+- Intel
+- Frecuencia del
+- procesador
+- 4,8 GHz
+--------------------------------------------------
+
+Entidad: screen
+Etiquetas:
+- Tamaño pantalla
+- 14 ''
+- Pantalla táctil
+- Si
+- Tipo de pantalla
+- IPS
+- Resolución (Estándar)
+- 1920 x 1200
+- Superficie de la
+- pantalla
+- Mate
+- Luminosidad
+- 500 cd/m2
+--------------------------------------------------
+
+Entidad: dimensions_and_weight
+Etiquetas:
+- Peso sin embalaje
+- 1,35 kg
+- Altura
+- 31,28 cm
+- Ancho
+- 1,55 cm
+- Profundidad
+- 21,76 cm
+--------------------------------------------------
+
+Entidad: connections
+Etiquetas:
+- Conexión a red móvil
+- Si
+- Ethernet
+- No presente
+- Porte VGA
+- No
+- Bluetooth
+- Si
+- Puerto Thunderbolt
+- Si
+- Puerto HDMI
+- Si
+- Otras conexiones
+- WWAN    Quectel EM160R-GL, 4G LTE CAT16, with
+- Embedded eSIM
+- NO SIM Card
+- NO NFC
+- Standard Ports
+- 1x USB-A (USB 5Gbps / USB 3.2 Gen 1)
+- 1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On
+- 2x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB
+- PD 3.0 and DisplayPort™ 2.1
+- 1x HDMI® 2.1, up to 4K/60Hz
+- 1x Headphone / microphone combo jack (3.5mm)
+- Optional Ports (configured)
+- 1x Nano-SIM Card Slot
+--------------------------------------------------
+
+Entidad: ram
+Etiquetas:
+- 16 GB
+- RAM Máxima
+- 16 GB
+- Bancos RAM Libres
+- 0
+- Velocidad de la
+- memoria de reloj
+- 6.400 MHz
+- Tecnología de la RAM
+- LPDDR5
+--------------------------------------------------
+
+Entidad: audio
+Etiquetas:
+- Micrófono Integrado
+- Si
+--------------------------------------------------
+
+Entidad: battery
+Etiquetas:
+- Número celdas
+- 3
+--------------------------------------------------
+
+Entidad: webcam
+Etiquetas:
+- Webcam integrada
+- Si
+--------------------------------------------------
+
+Entidad: os_and_software
+Etiquetas:
+- Version S.O.
+- Windows 11
+- Pro
+- Software Incluido
+- Windows® 11 Pro, Spanish
+--------------------------------------------------

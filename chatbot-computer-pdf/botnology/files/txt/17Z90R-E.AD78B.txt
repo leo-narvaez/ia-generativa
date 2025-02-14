@@ -1,0 +1,117 @@
+Product_name: LG gram 17Z90R 17" Windows 11 Home i7 32GB 1TB SSD 
+Código: 17Z90R-E.AD78B
+
+Product_code: 17Z90R-E.AD78B
+
+Price: 2.205,78 €
+
+Warranty: 36meses
+
+Hard_drive: Disco duro
+1.000 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+PCI Express 
+4.0
+Número Soportes
+1
+
+Graphics: Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+RTX™ 3050 Ti
+Memoria de la gráfica
+18 mb
+
+Processor: Familia Procesador
+Intel Core i7
+Modelo de procesador
+i7-1360P
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+2,2 GHz
+
+Screen: Tamaño pantalla
+17 ''
+Pantalla táctil
+No
+Tipo de pantalla
+IPS
+Resolución (Estándar)
+2560 x 1600
+Superficie de la 
+pantalla
+Mate
+
+Dimensions_and_weight: Peso sin embalaje
+1,45 kg
+Altura
+25,88 cm
+Ancho
+37,88 cm
+Profundidad
+1,78 cm
+
+Connections: Conexión a red móvil
+No
+N° total de puertos 
+USB
+4
+Puertos USB 3.2 Gen 1 
+SuperSpeed (5 Gbps) 
+Type-A
+2
+Puertos USB 3.2 Gen 
+2x2 SuperSpeed (20 
+Gbps) Type-C
+2
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Puerto Thunderbolt
+Si
+Puerto HDMI
+Si
+
+Ram: 32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+6.000 MHz
+Tecnología de la RAM
+LPDDR5
+
+Audio: Micrófono Integrado
+Si
+
+Battery: Número celdas
+4
+Duración de la batería 
+hasta
+20 h
+
+Webcam: Webcam integrada
+Si
+Resolución Webcam
+1920 x 1080
+
+Os_and_software: Version S.O.
+Windows 11 
+Home
+ 
+CONTENIDO DEL PAQUETE
+Pluma
+No
+

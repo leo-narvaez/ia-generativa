@@ -1,0 +1,131 @@
+Product_name: Microsoft Surface Laptop 6 13.5 i7/32/1TB/Windows 11 Negro 
+Código: ZKB-00012
+
+Product_code: ZKB-00012
+
+Price: 2.528,75 €
+
+Hard_drive: Disco duro
+1.000 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+SSD
+Número Soportes
+1
+
+Graphics: Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+Intel Arc 
+Graphics
+Memoria de la gráfica
+0 mb
+
+Processor: Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+165H
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+1,7 GHz
+Frecuencia del 
+procesador turbo
+4,6 GHz
+
+Screen: Tamaño pantalla
+13,5 ''
+Pantalla táctil
+Si
+Tipo de pantalla
+TFT
+Resolución (Estándar)
+2256 x 1504
+Superficie de la 
+pantalla
+Brillo
+
+Dimensions_and_weight: Peso sin embalaje
+1,38 kg
+Altura
+16,7 cm
+Ancho
+22,3 cm
+Profundidad
+1,67 cm
+
+Connections: Conexión a red móvil
+No
+N° total de puertos 
+USB
+3
+Puertos USB 2.0 High 
+Speed Type-A
+1
+Puertos USB 4 (40 
+Gbps) Type-C
+2
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Bluetooth Versión
+5,3
+Puerto Thunderbolt
+Si
+Puerto HDMI
+No
+Conexión para 
+Dockstation del 
+fabricante
+Si
+Wireless (standard)
+Wifi 6E 
+(802.11ax)
+Otras conexiones
+1 x USB-C USB4/Thunderbolt4 con soporte para: Carga, 
+Transferencia de Archivos.
+1x USB-A 3.1
+DisplayPort 2.1 con soporte hasta 1 x 8K monitor
+1 x Surface Connect
+1 x Audio jack
+
+Ram: 32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+4,27 MHz
+Tecnología de la RAM
+LPDDR5
+
+Audio: Micrófono Integrado
+Si
+
+Battery: Número celdas
+6
+Duración de la batería 
+hasta
+18,5 h
+
+Webcam: Webcam integrada
+Si
+Resolución Webcam
+1920 x 1080
+Infrarrojos
+Si
+
+Os_and_software: Version S.O.
+Windows 11 
+Pro
+

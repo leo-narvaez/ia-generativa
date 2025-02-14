@@ -1,0 +1,116 @@
+Product_name: Lenovo ThinkPad X1 2-in-1 Gen 9 
+Código: 21KE003VSP
+
+Product_code: 21KE003VSP
+
+Price: 2.546,24 €
+
+Warranty: 36meses
+
+Hard_drive: Disco duro
+1.024 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+PCI Express 
+4.0
+Velocidad Soporte 1
+2.280 rpm
+Número Soportes
+1
+
+Graphics: Gráfica integrada
+No
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+Intel Graphics
+Memoria de la gráfica
+0 mb
+
+Processor: Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+155U
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+4,8 GHz
+
+Screen: Tamaño pantalla
+14 ''
+Pantalla táctil
+Si
+Tipo de pantalla
+IPS
+Resolución (Estándar)
+1920 x 1200
+Superficie de la 
+pantalla
+Mate
+Luminosidad
+500 cd/m2
+
+Dimensions_and_weight: Peso sin embalaje
+1,35 kg
+Altura
+31,28 cm
+Ancho
+1,55 cm
+Profundidad
+21,76 cm
+
+Connections: Conexión a red móvil
+No
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Puerto Thunderbolt
+Si
+Puerto HDMI
+Si
+Otras conexiones
+WWAN Upgradable to 4G or 5G
+NO NFC   
+Standard Ports     
+1x USB-A (USB 5Gbps / USB 3.2 Gen 1) 
+1x USB-A (USB 5Gbps / USB 3.2 Gen 1), Always On 
+2x USB-C® (Thunderbolt™ 4 / USB4® 40Gbps), with USB 
+PD 3.0 and DisplayPort™ 2.1 
+1x HDMI® 2.1, up to 4K/60Hz 
+1x Headphone / microphone combo jack (3.5mm) 
+Optional Ports (configured)     
+1x Nano-SIM Card Slot
+
+Ram: 32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+6.400 MHz
+Tecnología de la RAM
+LPDDR5
+
+Audio: Micrófono Integrado
+Si
+
+Battery: Número celdas
+3
+
+Webcam: Webcam integrada
+Si
+
+Os_and_software: Version S.O.
+Windows 11 
+Pro
+Software Incluido
+Windows® 11 Pro, Spanish
+

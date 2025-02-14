@@ -1,0 +1,140 @@
+Product_name: Dell XPS 14 9440U7 155H32GB1TB SSD14.5" OLED Touch 
+Código: DTPF3
+
+Product_code: DTPF3
+
+Price: 2.628,52 €
+
+Warranty: 12meses
+
+Hard_drive: Disco duro
+1.000
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+NVMe
+Número Soportes
+1
+
+Graphics: Gráfica integrada
+Si
+Fabricante de la 
+gráfica
+Nvidia
+Modelo gráfica
+GeForce RTX 
+4050
+
+Processor: Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+155H
+Fabricante procesador
+Intel
+Generación del 
+procesador
+Intel Core 
+Ultra (Series 
+1)
+Número de núcleos de 
+procesador
+16
+Frecuencia del 
+procesador turbo
+4,8
+
+Screen: Tamaño pantalla
+14,5
+Pantalla táctil
+Si
+Tipo de pantalla
+OLED
+Resolución (Estándar)
+3200 x 2000
+Luminosidad
+400
+Contraste
+1.000.000
+Tipologia HD
+3.2K
+Retroiluminación
+Yes
+Tiempo máximo de 
+refresco
+120
+Espacio de color RGB
+DCI-P3
+
+Dimensions_and_weight: Peso sin embalaje
+1,74 kg
+Altura
+1,8 cm
+Ancho
+32
+Profundidad
+21,6 cm
+
+Connections: Conexión a red móvil
+No
+N° total de puertos 
+USB
+0
+Puertos USB 2.0 High 
+Speed Type-A
+0
+Puertos USB 3.2 Gen 1 
+SuperSpeed (5 Gbps) 
+Type-A
+0
+Ethernet
+No presente
+Porte VGA
+No
+Bluetooth
+Si
+Puerto Thunderbolt
+Si
+Puerto HDMI
+Si
+HDMI micro
+No
+Display Port
+No
+Mini Display Port
+No
+Conexión para 
+Dockstation del 
+fabricante
+No
+Wireless (standard)
+Wifi 6E 
+(802.11ax)
+Tipo de puerto de 
+carga
+USB Type-C
+
+Ram: 32
+RAM Máxima
+32
+Tecnología de la RAM
+LPDDR5X
+Tipo de RAM
+On-board
+
+Audio: Micrófono Integrado
+Si
+Altavoces (Fabricante)
+Waves
+
+Battery: Número celdas
+6
+Capacidad de batería
+69,5
+
+Os_and_software: Version S.O.
+Windows 11 
+Pro
+Bit S.O.
+64
+

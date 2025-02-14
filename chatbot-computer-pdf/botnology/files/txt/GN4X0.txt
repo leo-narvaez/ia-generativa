@@ -1,0 +1,96 @@
+Product_name: Dell Latitude 9450 2-in-1 U7 165U 32GB/1TB SSD W11 P 
+Código: GN4X0
+
+Product_code: GN4X0
+
+Price: 2.542,61 €
+
+Warranty: 36meses
+
+Hard_drive: Disco duro
+1.024 GB
+Tipo Soporte 1
+SSD
+Interfaz Soporte 1
+PCI Express 
+4.0
+Número Soportes
+1
+
+Graphics: Gráfica integrada
+No
+Fabricante de la 
+gráfica
+Intel
+Modelo gráfica
+UHD Graphics
+Memoria de la gráfica
+0 mb
+
+Processor: Familia Procesador
+Intel Core 
+Ultra 7
+Modelo de procesador
+164U
+Fabricante procesador
+Intel
+Frecuencia del 
+procesador
+4,4 GHz
+
+Screen: Tamaño pantalla
+14 ''
+Pantalla táctil
+Si
+Tipo de pantalla
+TFT
+Resolución (Estándar)
+2560 x 1600
+
+Dimensions_and_weight: Peso sin embalaje
+1,54 kg
+Altura
+1,28 cm
+Ancho
+31,1 cm
+Profundidad
+2,15 cm
+
+Connections: Conexión a red móvil
+Si
+Ethernet
+Ethernet 
+10/100/1000
+Porte VGA
+No
+Bluetooth
+Si
+Puerto Thunderbolt
+Si
+Puerto HDMI
+No
+
+Ram: 32 GB
+RAM Máxima
+32 GB
+Bancos RAM Libres
+0
+Velocidad de la 
+memoria de reloj
+7.467 MHz
+Tecnología de la RAM
+DDR5
+
+Audio: Micrófono Integrado
+Si
+
+Battery: Número celdas
+3
+
+Webcam: Webcam integrada
+Si
+
+Os_and_software: Version S.O.
+Windows 11 
+Pro
+
